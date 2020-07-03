@@ -1,0 +1,27 @@
+---
+BasedOnStyle: LLVM
+Language: Cpp
+DerivePointerAlignment: false
+PointerAlignment: Left
+BreakBeforeBraces: Allman
+AlwaysBreakTemplateDeclarations: true
+TabWidth: 8
+IndentWidth: 2
+UseTab: Never
+BreakConstructorInitializers: AfterColon
+ConstructorInitializerAllOnOneLineOrOnePerLine: true
+ColumnLimit: 140
+AllowShortFunctionsOnASingleLine: Inline
+
+SortIncludes: true
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex:           '<.*\.hpp>'
+    Priority:        4
+  - Regex:           '<[([:alnum:]|_).]+>'
+    Priority:        5
+  - Regex:           '.*'
+    Priority:        1
+
+...
+

@@ -1,0 +1,4 @@
+Checks: '-*,bugprone-*,,clang-analyzer-*,misc-*,modernize-*,performance-*,portability-*,readability-*,-readability-uppercase-literal-suffix,-cppcoreguidelines-pro-type-union-access,-modernize-use-nodiscard,-cppcoreguidelines-avoid-magic-numbers,-readability-magic-numbers,-cppcoreguidelines-pro-bounds-array-to-pointer-decay,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-cppcoreguidelines-special-member-functions,-readability-implicit-bool-conversion,-readability-redundant-access-specifiers,-cppcoreguidelines-pro-bounds-constant-array-index,-modernize-use-trailing-return-type'
+FormatStyle: none
+User: user
+CheckOptions:

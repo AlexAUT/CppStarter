@@ -10,7 +10,7 @@ set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 17)
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_EXTENSIONS OFF)
 set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD_REQUIRED ON)
 
-enable_warnings(${PROJECT_NAME)
+enable_warnings(${PROJECT_NAME})
 
 target_sources(${PROJECT_NAME} PUBLIC main.cpp)
 
